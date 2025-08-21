@@ -4,6 +4,12 @@
  * @package fitblock-red
  */
 ?>
+<?php if ( function_exists( 'elementor_theme_do_location' ) && elementor_theme_do_location( 'footer' ) ) : ?>
+  <?php wp_footer(); ?>
+</body>
+</html>
+<?php return; endif; ?>
+
 <footer class="site-footer" role="contentinfo">
   <div class="container footer-inner">
     <nav aria-label="<?php esc_attr_e( 'Menu do Rodapé', 'fitblock-red' ); ?>">

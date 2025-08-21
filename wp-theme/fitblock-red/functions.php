@@ -62,3 +62,16 @@ function fitblock_red_rel_canonical() {
   }
 }
 add_action( 'wp_head', 'fitblock_red_rel_canonical', 1 );
+
+// Elementor: registra locais de tema (header, footer, single, archive)
+function fitblock_red_register_elementor_locations( $elementor_theme_manager ) {
+  $elementor_theme_manager->register_all_core_location();
+}
+add_action( 'elementor/theme/register_locations', 'fitblock_red_register_elementor_locations' );
+
+// Elementor: suporte básico e largura de conteúdo
+add_action( 'after_setup_theme', function() {
+  add_theme_support( 'elementor' );
+});
+
+if ( ! isset( $content_width ) ) { $content_width = 1120; }

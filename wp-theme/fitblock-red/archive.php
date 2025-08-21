@@ -5,6 +5,8 @@
  */
 get_header(); ?>
 
+<?php if ( function_exists( 'elementor_theme_do_location' ) && elementor_theme_do_location( 'archive' ) ) { get_footer(); return; } ?>
+
 <main id="conteudo" class="container content-grid" role="main" style="padding:2rem 0;">
   <div>
     <header>

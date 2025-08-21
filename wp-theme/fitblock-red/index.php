@@ -5,6 +5,8 @@
  */
 get_header(); ?>
 
+<?php if ( function_exists( 'elementor_theme_do_location' ) && elementor_theme_do_location( 'archive' ) ) { get_footer(); return; } ?>
+
 <section class="hero" id="topo">
   <div class="container hero-inner">
     <h1><?php bloginfo('name'); ?></h1>

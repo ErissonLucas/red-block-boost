@@ -50,6 +50,9 @@
 <?php wp_body_open(); ?>
 <a class="screen-reader-text" href="#conteudo">Pular para o conteúdo</a>
 
+<?php if ( function_exists( 'elementor_theme_do_location' ) && elementor_theme_do_location( 'header' ) ) : ?>
+  <!-- Header gerenciado pelo Elementor -->
+<?php else : ?>
 <header class="site-header" role="banner">
   <div class="container header-inner">
     <div class="site-branding">
@@ -73,3 +76,4 @@
     </nav>
   </div>
 </header>
+<?php endif; ?>
