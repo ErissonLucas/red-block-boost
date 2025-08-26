@@ -1,0 +1,768 @@
+{
+  "version": "0.4",
+  "title": "FitBlock Landing Page",
+  "type": "page",
+  "author": "Lovable",
+  "generator": "Elementor",
+  "image": "",
+  "description": "Template completo da landing page FitBlock para perda de peso feminina",
+  "tags": [
+    "landing page",
+    "ecommerce",
+    "saude",
+    "feminino"
+  ],
+  "is_pro": false,
+  "dependencies": [],
+  "content": [
+    {
+      "id": "hero-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "_column_size": 100,
+        "_inline_size": null,
+        "background_background": "gradient",
+        "background_color": "#dc2626",
+        "background_color_b": "#7c2d12",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "hero-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Transforme Seu Corpo em 30 Dias com FIT BLOCK",
+                "header_size": "h1",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "align": "center",
+                "text_shadow_text_shadow_type": "yes",
+                "text_shadow_text_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 10,
+                  "color": "rgba(0,0,0,0.3)"
+                }
+              }
+            },
+            {
+              "id": "hero-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>O único bloqueador natural que combina ação diurética, termogênica e bloqueadora de apetite em uma fórmula revolucionária desenvolvida especialmente para mulheres.</p>",
+                "align": "center",
+                "text_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "bottom": "40"
+                }
+              }
+            },
+            {
+              "id": "hero-cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "COMPRAR AGORA - OFERTA LIMITADA",
+                "link": {
+                  "url": "#kits",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "center",
+                "background_color": "#ffffff",
+                "color": "#dc2626",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_weight": "700",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "40",
+                  "bottom": "20",
+                  "left": "40"
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 25,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.15)"
+                },
+                "hover_background_color": "#f8fafc",
+                "hover_animation": "pulse"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-proof-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "social-proof-column",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "social-proof-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Mais de 50.000 mulheres já transformaram suas vidas",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#1e293b",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "testimonials-container",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "\"Perdi 8kg em apenas 3 semanas! O FIT BLOCK mudou completamente minha relação com a comida e meu corpo.\"",
+                "testimonial_name": "Maria Silva",
+                "testimonial_job": "Perdeu 8kg em 3 semanas",
+                "testimonial_image": {
+                  "url": "/src/assets/testimonial-1.jpg"
+                },
+                "testimonial_alignment": "center",
+                "testimonial_content_color": "#475569",
+                "testimonial_name_color": "#dc2626",
+                "testimonial_job_color": "#64748b"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-details-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "bottom": "100"
+        }
+      },
+      "elements": [
+        {
+          "id": "product-row",
+          "elType": "section",
+          "isInner": true,
+          "settings": {
+            "structure": "20"
+          },
+          "elements": [
+            {
+              "id": "product-image-column",
+              "elType": "column",
+              "isInner": true,
+              "settings": {
+                "_column_size": 50
+              },
+              "elements": [
+                {
+                  "id": "product-image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "/src/assets/fit-block-product.jpg"
+                    },
+                    "image_size": "large",
+                    "align": "center",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20"
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 20,
+                      "blur": 40,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.1)"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "product-info-column",
+              "elType": "column",
+              "isInner": true,
+              "settings": {
+                "_column_size": 50
+              },
+              "elements": [
+                {
+                  "id": "product-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "FIT BLOCK: Tripla Ação Revolucionária",
+                    "header_size": "h2",
+                    "title_color": "#1e293b",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_font_weight": "800"
+                  }
+                },
+                {
+                  "id": "product-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Desenvolvido especificamente para mulheres que desejam:</p><ul><li><strong>Eliminar a retenção de líquidos</strong> naturalmente</li><li><strong>Acelerar o metabolismo</strong> e queimar gordura</li><li><strong>Controlar a fome</strong> e os desejos por doces</li><li><strong>Aumentar a energia</strong> para o dia a dia</li></ul>",
+                    "text_color": "#475569",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    }
+                  }
+                },
+                {
+                  "id": "certifications",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style=\"display: flex; gap: 15px; margin: 30px 0;\"><span style=\"background: #dc2626; color: white; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: bold;\">FDA APROVADO</span><span style=\"background: #16a34a; color: white; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: bold;\">GMP CERTIFICADO</span><span style=\"background: #2563eb; color: white; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: bold;\">100% NATURAL</span></div>",
+                    "align": "left"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "benefits-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#f8fafc",
+        "background_color_b": "#e2e8f0",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "bottom": "100"
+        }
+      },
+      "elements": [
+        {
+          "id": "benefits-column",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "benefits-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Por que FIT BLOCK é diferente?",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#1e293b",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "800"
+              }
+            },
+            {
+              "id": "benefits-grid",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "33"
+              },
+              "elements": [
+                {
+                  "id": "benefit-1-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "benefit-1-card",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-tint",
+                          "library": "fa-solid"
+                        },
+                        "icon_color": "#dc2626",
+                        "title_text": "Ação Diurética",
+                        "description_text": "Elimina o inchaço e a retenção de líquidos naturalmente, deixando você mais leve e definida.",
+                        "title_color": "#1e293b",
+                        "description_color": "#475569",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 40
+                        },
+                        "position": "top"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "benefit-2-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "benefit-2-card",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-fire",
+                          "library": "fa-solid"
+                        },
+                        "icon_color": "#dc2626",
+                        "title_text": "Termogênica",
+                        "description_text": "Acelera o metabolismo e aumenta a queima de gordura, especialmente na região abdominal.",
+                        "title_color": "#1e293b",
+                        "description_color": "#475569",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 40
+                        },
+                        "position": "top"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "benefit-3-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "benefit-3-card",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-ban",
+                          "library": "fa-solid"
+                        },
+                        "icon_color": "#dc2626",
+                        "title_text": "Bloqueadora",
+                        "description_text": "Reduz a absorção de carboidratos e controla a fome, diminuindo os desejos por doces.",
+                        "title_color": "#1e293b",
+                        "description_color": "#475569",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 40
+                        },
+                        "position": "top"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pricing-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "bottom": "100"
+        }
+      },
+      "elements": [
+        {
+          "id": "pricing-column",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "pricing-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Escolha seu Kit de Transformação",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#1e293b",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "800"
+              }
+            },
+            {
+              "id": "pricing-grid",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "33"
+              },
+              "elements": [
+                {
+                  "id": "kit-1-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "kit-1-card",
+                      "elType": "widget",
+                      "widgetType": "call-to-action",
+                      "settings": {
+                        "title": "Kit Básico",
+                        "description": "1 frasco - 30 dias\nIdeal para testar",
+                        "button_text": "Comprar por R$ 97",
+                        "graphic_element": "none",
+                        "background_color": "#f8fafc",
+                        "content_text_color": "#1e293b",
+                        "button_background_color": "#dc2626",
+                        "button_text_color": "#ffffff",
+                        "border_type": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2"
+                        },
+                        "border_color": "#e2e8f0",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "20",
+                          "bottom": "20",
+                          "left": "20"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "kit-2-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "kit-2-card",
+                      "elType": "widget",
+                      "widgetType": "call-to-action",
+                      "settings": {
+                        "title": "Kit Recomendado",
+                        "description": "3 frascos - 90 dias\n33% de desconto\nFrete GRÁTIS",
+                        "button_text": "Comprar por R$ 197",
+                        "graphic_element": "none",
+                        "background_color": "#dc2626",
+                        "content_text_color": "#ffffff",
+                        "button_background_color": "#ffffff",
+                        "button_text_color": "#dc2626",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "20",
+                          "bottom": "20",
+                          "left": "20"
+                        },
+                        "box_shadow_box_shadow_type": "yes",
+                        "box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 10,
+                          "blur": 30,
+                          "spread": 0,
+                          "color": "rgba(220, 38, 38, 0.3)"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "kit-3-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "kit-3-card",
+                      "elType": "widget",
+                      "widgetType": "call-to-action",
+                      "settings": {
+                        "title": "Kit Transformação",
+                        "description": "5 frascos - 150 dias\n50% de desconto\nFrete GRÁTIS + Bônus",
+                        "button_text": "Comprar por R$ 297",
+                        "graphic_element": "none",
+                        "background_color": "#f8fafc",
+                        "content_text_color": "#1e293b",
+                        "button_background_color": "#16a34a",
+                        "button_text_color": "#ffffff",
+                        "border_type": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2"
+                        },
+                        "border_color": "#e2e8f0",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "20",
+                          "bottom": "20",
+                          "left": "20"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "bottom": "100"
+        }
+      },
+      "elements": [
+        {
+          "id": "faq-column",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "faq-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Perguntas Frequentes",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#1e293b",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "800"
+              }
+            },
+            {
+              "id": "faq-accordion",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "_id": "faq1",
+                    "tab_title": "O FIT BLOCK é seguro?",
+                    "tab_content": "Sim! O FIT BLOCK é 100% natural, aprovado pela FDA e certificado pelas boas práticas de fabricação (GMP). Todos os ingredientes são cuidadosamente selecionados e testados."
+                  },
+                  {
+                    "_id": "faq2", 
+                    "tab_title": "Em quanto tempo vou ver resultados?",
+                    "tab_content": "A maioria das mulheres começa a notar resultados já na primeira semana, com redução do inchaço e mais energia. Os resultados mais significativos aparecem entre 2-4 semanas de uso contínuo."
+                  },
+                  {
+                    "_id": "faq3",
+                    "tab_title": "Posso tomar se estiver amamentando?",
+                    "tab_content": "Recomendamos consultar seu médico antes de usar qualquer suplemento durante a amamentação ou gravidez."
+                  },
+                  {
+                    "_id": "faq4",
+                    "tab_title": "Tem garantia?",
+                    "tab_content": "Sim! Oferecemos 30 dias de garantia total. Se não ficar satisfeita, devolvemos 100% do seu dinheiro."
+                  }
+                ],
+                "title_color": "#1e293b",
+                "content_color": "#475569",
+                "border_width": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "border_color": "#e2e8f0"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1e293b",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "bottom": "60"
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-column",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "footer-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; margin-bottom: 20px;\">© 2024 FIT BLOCK. Todos os direitos reservados.</p><p style=\"text-align: center; font-size: 14px; opacity: 0.8;\">Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença.<br>Resultados podem variar de pessoa para pessoa.</p>",
+                "text_color": "#94a3b8",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
