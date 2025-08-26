@@ -12,10 +12,8 @@
 <?php if ( function_exists( 'elementor_theme_do_location' ) && elementor_theme_do_location( 'header' ) ) : ?>
   <?php // Elementor header will render here ?>
 <?php else : ?>
-  <header class="site-header">
-    <div class="container mx-auto px-4 py-4">
-      <h1 class="text-xl font-bold"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-    </div>
+  <header>
+    <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
   </header>
 <?php endif; ?>
 

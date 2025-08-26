@@ -6,6 +6,10 @@ function rbb_theme_setup() {
   add_theme_support( 'post-thumbnails' );
   add_theme_support( 'html5', [ 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption', 'style', 'script' ] );
   add_theme_support( 'custom-logo', [ 'height' => 80, 'width' => 240, 'flex-height' => true, 'flex-width' => true ] );
+  add_theme_support( 'elementor' );
+  add_theme_support( 'elementor-pro' );
+  add_theme_support( 'elementor-header-footer' );
+  add_theme_support( 'woocommerce' );
 
   register_nav_menus( [
     'primary' => __( 'Primary Menu', 'red-block-boost-theme' ),
@@ -54,6 +58,44 @@ function rbb_register_elementor_locations( $elementor_theme_manager ) {
   $elementor_theme_manager->register_location( 'archive' );
 }
 add_action( 'elementor/theme/register_locations', 'rbb_register_elementor_locations' );
+
+// Elementor Canvas template support and full width templates
+function rbb_add_elementor_templates( $templates ) {
+  $templates['elementor-canvas'] = [
+    'title' => __( 'Elementor Canvas', 'red-block-boost-theme' ),
+    'file'  => 'templates/page-elementor-canvas.php',
+  ];
+  $templates['elementor-full-width'] = [
+    'title' => __( 'Elementor Full Width', 'red-block-boost-theme' ),
+    'file'  => 'templates/page-elementor-fullwidth.php',
+  ];
+  return $templates;
+}
+add_filter( 'theme_page_templates', 'rbb_add_elementor_templates' );
+
+function rbb_load_elementor_template( $template ) {
+  if ( is_singular() ) {
+    $page_template = get_page_template_slug( get_queried_object_id() );
+    if ( 'templates/page-elementor-canvas.php' === $page_template ) {
+      $new = locate_template( [ 'templates/page-elementor-canvas.php' ] );
+      if ( $new ) return $new;
+    }
+    if ( 'templates/page-elementor-fullwidth.php' === $page_template ) {
+      $new = locate_template( [ 'templates/page-elementor-fullwidth.php' ] );
+      if ( $new ) return $new;
+    }
+  }
+  return $template;
+}
+add_filter( 'template_include', 'rbb_load_elementor_template', 99 );
+
+// Allow Elementor to control all parts when builder is active
+function rbb_maybe_disable_theme_parts() {
+  if ( function_exists( 'elementor_theme_do_location' ) ) {
+    // No-op: header/footer conditional rendering is already handled in header.php/footer.php
+  }
+}
+add_action( 'wp', 'rbb_maybe_disable_theme_parts' );
 
 // Performance tweaks
 remove_action( 'wp_head', 'wp_generator' );

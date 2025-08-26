@@ -2,7 +2,7 @@
 get_header();
 ?>
 
-<main id="primary" class="site-main">
+<main id="primary">
 <?php if ( have_posts() ) :
   while ( have_posts() ) : the_post();
     the_content();
@@ -12,6 +12,5 @@ else :
 endif; ?>
 </main>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
 
